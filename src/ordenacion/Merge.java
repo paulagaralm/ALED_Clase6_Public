@@ -4,7 +4,7 @@ import java.util.Iterator;
 
 public class Merge {
 
-	
+	//ordenados, pueden tener distintos tamaños y puede haber repetidos
 	public static int[] merge(int[] arr1, int[] arr2) {
 		int[] res = new int[arr1.length + arr2.length];
 		
