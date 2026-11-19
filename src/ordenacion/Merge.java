@@ -64,7 +64,7 @@ public class Merge {
 		return res;
 	}
 	
-	public static int[] mergeSort(int[] arr) {
+	public static int[] mergeSort(int[] arr) { //O(n*log(n))
 		if (arr.length <= 1) {
 			return arr;
 		}
